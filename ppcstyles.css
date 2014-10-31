@@ -1,0 +1,11 @@
+#header {
+	background-color: gray;
+	width: 1000px;
+	height: 150px;
+}
+
+#main-wrapper {
+	background-color: black;
+	width: 1000px;
+	height: 450px;
+}
