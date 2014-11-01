@@ -4,22 +4,91 @@
 }
 
 #header {
-	background-color: gray;
-	height: 150px;
+	background-color: white;
+	height: 120px;
+	width: 100%;
+	border-bottom-width: 2px;
+	border-bottom-color: gray;
+	background: linear-gradient(to bottom, rgba(158,158,158,0.65) 0%,rgba(158,158,158,0) 100%);
 }
+	#header img{
+		padding-left: 20px;
+	}
+	#tollfree{
+		position: absolute;
+		right: 100px;
+		padding-top: 20px;
+		font-family: sans-serif;
+	}
 
-h1 {
+#navbar {
+background: linear-gradient(to bottom, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); 
+height: 30px;
+text-align: center;
+position: relative;
+bottom: 1px;
+}
+	#navbar a:link, a:visited{
+		color: gray;
+		text-decoration: none;
+	}
+	#navbar ul{
+		list-style-type: none;
+		display: inline-block;
+		border-right-style: solid;
+		border-color: gray;
+		border-width: 1px;
+		background: linear-gradient(to bottom, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); 
+	}
+
+
+	#navbar li{
+		display: inline-block;
+		border-style: solid;
+		border-color: gray;
+		border-left-width: 1px;
+		border-right: none;
+		border-top: none;
+		border-bottom: none;
+		margin: 0 auto;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 5px;
+		padding-bottom: 8px;
+
+	
+	background: linear-gradient(to bottom, rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); 
+	font-size: 15px;
+	font-family: sans-serif;
+	}
+
+h4 {
 	display: block;
 	background-color: yellow;
+	text-align: left;
+	padding: 5px;
+	padding-left: 10px;
+	font-family: sans-serif;
+	background: linear-gradient(to bottom, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%);
+}
+
+h5 {
+	color: white;
+	padding-left: 10px;
+	padding-top: 10px;
+	font-family: sans-serif;
 }
 
 #main-wrapper {
 	background-color: black;
 	height: 100%;
-	
+	width: 100%;
 }
 	#main {
+
   		    text-align:center;
+  		    background-color: black;
+  		    width: 100%;
 	}
 		#photo {
 			display: inline-block;
@@ -29,6 +98,8 @@ h1 {
 			width: 400px;
 			height: 250px;
 			margin: 10px 5px 0px 10px;
+			background-image: url(images.jpg);
+			background-size:100%;
 		}
 		#about {
 			display: inline-block;
@@ -36,4 +107,67 @@ h1 {
 			background-color: gray;
 			height: 250px;
 			margin: 10px 10px 10px 5px;
+			vertical-align: top;
+			text-align: left;
 		}
+			p {
+				color: white;
+				font-size: 11px;
+				padding: 10px;
+				font-family: sans-serif;
+			}
+
+#announcement{
+margin: 0 auto;
+width: 900px;
+color: yellow;
+text-align: left;
+padding-top: 5px;
+padding-left: 5px;
+}
+	#announcement-text{
+	font-family: arial;
+	font-size: 12px;
+	padding: 10px;
+	position: relative;
+	bottom: 5px;
+	}
+
+	#articles {
+		margin-top: 5px;
+		padding-bottom: 10px;
+		text-align: center;
+		background-color: black;
+	}
+		#automotive, #commercial, #industrial, #diesel {
+			width: 218px;
+			height: 230px;
+			background-color: white;
+			display: inline-block;
+			margin: 0px 6px 0px 6px;
+			text-align: left;
+			overflow: scroll;
+			font-size: 11px;
+		}
+
+		#articles img{
+			height:100px;
+			width:218px;
+			display: block;
+		}
+		.articletext{
+			font-family: sans-serif;
+			padding: 10px;
+		}
+		.readmore-button{
+			background-color: yellow;
+			border-width: 2px;
+			border-style: solid;
+			border-color: black;
+			position: relative;
+			right: 0;
+			left: 100px;
+			border-radius: 3px 9px 9px 3px;
+			padding: 1px 7px 1px 7px;
+		}
+
